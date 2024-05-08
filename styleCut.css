@@ -1,0 +1,66 @@
+/*importar fondos*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body, * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2.5;
+    /*tipografía*/
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    /*flexible*/
+    display: flex;
+    /*acomodar en fila*/
+    flex-direction: row;
+    justify-content: space-evenly;
+    /*color de fondo*/
+    /*background-color: aquamarine;*/
+    
+    /*ancho del header*/
+    width: 100%;
+    /*elementos centrados horizontalmente*/
+    align-items: center;
+}
+
+header img {
+    width: 200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+}
+
+header h1 {
+    /*tamaño letra*/
+    font-size: 50px;
+    /*color letra*/
+    color: #396AC8;
+}
+
+h2 {
+    /*tamaño letra*/
+    font-size: 30px;
+    /*color letra*/
+    color: #000;
+}
+
+.box1 {
+    /*flexible*/
+    display: flex;
+    /*acomodar en fila*/
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1 img {
+    width: 500px;
+    /*elementos centrados horizontalmente*/
+    
+    justify-content: space-evenly;
+}
+
+.dataBox {
+   padding: 5px;
+}
